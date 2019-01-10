@@ -1,0 +1,33 @@
+﻿2)
+First 12 popped coords:
+(4,3)
+(3,3)
+(5,3)
+(5,2)
+(5,1)
+(6,1)
+(7,1)
+(8,1)
+(8,2)
+(6,3)
+(4,4)
+(4,5)
+
+
+4)
+First 12 popped coords:
+(4,3)
+(4,4)
+(5,3)
+(3,3)
+(4,5)
+(6,3)
+(5,2)
+(4,6)
+(5,5)
+(5,1)
+(4,7)
+(6,5)
+
+
+Rather than following a path and exhausting the available options for moving forward linearly, the queue moves more like a wave. It returns back to the earliest possible coord and moves outward like a ripple, testing for the available path more gradually.
